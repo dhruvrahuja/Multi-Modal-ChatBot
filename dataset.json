@@ -1,0 +1,136 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["Hello", "Hi", "Hey", "Hi there", "Hello there", "Good morning", "Good afternoon", "Good evening", "What's up?", "How's it going?"],
+      "responses": ["Hello!", "Hey there!", "Hi, how can I help?", "Good to see you!", "Hello! How can I assist you today?"],
+      "context": [""]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Goodbye", "See you", "Bye", "Bye-bye", "See you later", "Take care", "Catch you later"],
+      "responses": ["Goodbye!", "See you next time!", "Take care!", "Bye! Looking forward to our next chat.", "Catch you later!"],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it", "You're a lifesaver", "Thank you very much"],
+      "responses": ["You're welcome!", "No problem at all!", "Happy to help!", "Anytime!", "I'm here to help!"],
+      "context": [""]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How are you?", "How's it going?", "How are you feeling?", "How do you feel?", "What's up?", "How are you doing?"],
+      "responses": ["I'm here and ready to help you!", "I'm just a bunch of code, but thank you for asking!", "Feeling great! How about you?", "I'm here to serve, how can I assist?"],
+      "context": [""]
+    },
+    {
+      "tag": "feeling_good",
+      "patterns": ["I'm good", "I'm great", "Doing well", "Feeling awesome", "I'm fine", "I'm okay"],
+      "responses": ["That's wonderful to hear!", "I'm glad you're doing well!", "Awesome! What can I help you with today?", "Great to hear that!"],
+      "context": ["how_are_you"]
+    },
+    {
+      "tag": "feeling_bad",
+      "patterns": ["I'm not doing well", "Feeling down", "Not so great", "Could be better", "Feeling sad", "I'm not okay"],
+      "responses": ["I'm here for you! How can I help?", "I'm sorry to hear that. I'm here if you need to talk.", "I hope things get better soon. Is there anything I can do to help?"],
+      "context": ["how_are_you"]
+    },
+    {
+      "tag": "job",
+      "patterns": ["What's your job?", "What do you do?", "What's your purpose?", "What are you here for?", "What can you do for me?"],
+      "responses": ["My job is to help answer your questions and make your life easier!", "I'm here to assist you with information and tasks.", "I'm a chatbot created to provide support and answer questions."],
+      "context": [""]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "When were you created?", "What's your age?", "When were you born?"],
+      "responses": ["I was created in 2021 by OpenAI.", "I'm technically ageless, but I was 'born' in 2021.", "I don’t age, but I've been around since 2021!"],
+      "context": [""]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["What can you do?", "What are your skills?", "How can you help me?", "What tasks can you perform?", "What can I ask you?"],
+      "responses": [
+        "I can assist you with answering questions, finding information, having friendly conversations, and more!",
+        "You can ask me about world capitals, currency information, random numbers, math calculations, or even for motivational quotes.",
+        "I'm here to chat, help with questions, provide recommendations, and assist with general knowledge tasks!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["Are you human?", "Are you a robot?", "What are you?", "Are you real?", "Are you alive?"],
+      "responses": ["I'm an AI assistant, created to help you!", "I'm a virtual assistant, a type of AI.", "I'm not human, but I’m here to help you like one!"],
+      "context": [""]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where are you?", "Where do you live?", "Where are you based?", "Where is your server?", "Are you real?"],
+      "responses": ["I operate from a server, technically speaking, so I don't have a physical home.", "I'm based in the cloud, so I’m everywhere you need me!", "I'm located on a server, which could be anywhere!"],
+      "context": [""]
+    },
+    {
+      "tag": "gender",
+      "patterns": ["Are you male or female?", "What is your gender?", "Are you a man or a woman?", "Are you a boy or a girl?"],
+      "responses": ["I'm an AI, so I don’t have a gender.", "I'm gender-neutral!", "I'm here as a gender-neutral assistant."],
+      "context": [""]
+    },
+    {
+      "tag": "waiting",
+      "patterns": ["Please wait", "Can you hold on?", "One moment", "Wait a second", "Give me a moment"],
+      "responses": ["Of course, take your time!", "I'll be here when you're ready.", "No problem! I'll wait."],
+      "context": [""]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": ["Tell me a joke", "Say something funny", "Make me laugh", "Got any jokes?", "Entertain me"],
+      "responses": [
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "Why don’t scientists trust atoms? Because they make up everything!",
+        "Did you hear about the mathematician who’s afraid of negative numbers? He’ll stop at nothing to avoid them!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Is it sunny outside?", "Will it rain today?", "Tell me the weather", "Do I need an umbrella?"],
+      "responses": ["I can't check the weather directly, but you can use a weather app for the latest info!", "Try a weather service like Weather.com for accurate updates!", "I recommend checking the weather with an app to be sure!"],
+      "context": [""]
+    },
+    {
+      "tag": "personal_opinions",
+      "patterns": ["What's your favorite movie?", "Do you like music?", "Do you have hobbies?", "What do you like to do?"],
+      "responses": ["I love helping people! That’s what I’m here for.", "I'm a fan of anything that helps make your life easier!", "I don’t have personal preferences, but I enjoy our conversations!"],
+      "context": [""]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["I need motivation", "Can you inspire me?", "Motivate me", "Give me a pep talk", "I need some encouragement"],
+      "responses": [
+        "Believe in yourself! You have the power to accomplish great things.",
+        "Every day is a new chance to grow and learn. Keep pushing forward!",
+        "Remember, every challenge is an opportunity in disguise!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "math_help",
+      "patterns": ["What's 5 + 5?", "Can you do math?", "Calculate 12 divided by 4", "What's 8 times 7?", "What's 100 minus 25?"],
+      "responses": ["Sure! I can calculate basic math. Just ask me!", "I'm here to help with calculations. What's the equation?", "I'm ready to do some math! Let’s get calculating."],
+      "context": [""]
+    },
+    {
+      "tag": "still_here",
+      "patterns": ["Are you still here?", "Are you there?", "Are you online?", "Can you hear me?"],
+      "responses": ["Absolutely! I'm always here to help.", "Yes, I'm right here. What can I assist you with?", "Of course, I’m here and ready to chat."],
+      "context": [""]
+    },
+    {
+      "tag": "no_answer",
+      "patterns": ["", "???", "Help?", "I need assistance", "Not sure what to ask"],
+      "responses": ["I'm here to help! Feel free to ask me anything.", "If you have a question, go ahead!", "I'm here to chat about almost anything you’d like!"],
+      "context": [""]
+    }
+  ]
+}
