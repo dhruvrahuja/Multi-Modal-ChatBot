@@ -23,7 +23,9 @@ cd Multi-Modal-ChatBot
 ```
 
 ### 2. Install the dependencies: 
-```bash pip install -r requirements.txt```
+```bash 
+pip install -r requirements.txt
+```
 (Optional but recommended: use a virtual environment to avoid dependency issues.)
 
 ### 3. Run the application
