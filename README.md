@@ -20,6 +20,7 @@ Combines speech recognition, a trained intent classification model, and BLIP-bas
 ```bash
 git clone https://github.com/dhruvrahuja/Multi-Modal-ChatBot.git
 cd Multi-Modal-ChatBot
+```
 
 ### 2. Install the dependencies: pip install -r requirements.txt
 (Optional but recommended: use a virtual environment to avoid dependency issues.)
