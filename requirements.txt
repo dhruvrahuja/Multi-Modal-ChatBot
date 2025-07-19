@@ -1,1 +1,9 @@
-
+torch
+torchvision
+torchaudio
+tensorflow>=2.12
+transformers>=4.30.0
+nltk
+speechrecognition
+pillow
+numpy
